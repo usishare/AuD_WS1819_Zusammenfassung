@@ -1,0 +1,61 @@
+% layout and global options
+\documentclass
+[
+  draft    = true,
+  fontsize = 11pt,
+  parskip  = half-,
+  BCOR     = 0pt,
+  DIV      = 11,
+  ngerman,
+  dvipsnames
+]
+{scrartcl}
+
+% default packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{babel}
+% extra packages
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage{ifthen}
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage{url}
+% own packages
+\usepackage{mytemize}
+
+% basic calculations in TikZ
+\usetikzlibrary{calc}
+
+% use comma as decimal separator
+\sisetup{locale=DE, group-minimum-digits=4}
+
+% common code
+\input{tools}
+
+% ------------------------------------------------------------------------------
+\begin{document}
+% ------------------------------------------------------------------------------
+
+% --------------------------------------------------------------
+\section*{Algorithmen und Datenstrukturen: Fragenkatalog}
+% --------------------------------------------------------------
+
+% github repository
+\url{https://github.com/usishare/AuD_WS1819_Zusammenfassung.git}
+
+% ----------------------
+\subsection*{Themen}
+% ----------------------
+\begin{mytemize}
+	
+\end{mytemize}
+
+% ------------------------------------------------------------------------------
+\end{document}
+% ------------------------------------------------------------------------------
+
